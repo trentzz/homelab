@@ -37,11 +37,11 @@ Proxmox is a complete open source server virtualization management solution. Pro
 
 ### Hard drive storage
 
-Now that we have proxmox setup, we can configure the hard drive setup for our NAS. I'm using 4x 12TB hard drives in a ZFS RAID5 array, but any storage setup is fine. I would highly recommend using RAID though.
+Now that we have proxmox setup, we can configure the hard drive setup for our NAS. I'm using 4x 12TB hard drives in a ZFS RAID5 (aka RAIDZ1) array, but any storage setup is fine. I would highly recommend using RAID though.
 
 #### Setting Up a ZFS RAID-Z1 (RAID5) Array on Proxmox VE
 
-**1. Identify Your Disks**
+##### 1. Identify Your Disks
 
 Before proceeding, determine the device names of your 4x 12TB drives:
 

@@ -76,6 +76,7 @@ See [Getting Started](docs/overview/getting-started.md) for more detail on each 
 - [Debian](docs/linux-setup/debian.md)
 - [Fedora](docs/linux-setup/fedora.md)
 - [Nix and NixOS](docs/linux-setup/nix.md)
+- [Dev Machine Setup](docs/linux-setup/dev-setup.md)
 
 ### [Networking](docs/networking/)
 
@@ -111,3 +112,10 @@ See [Getting Started](docs/overview/getting-started.md) for more detail on each 
 
 - [Security Hardening](docs/security/security.md)
 - [Backups](docs/security/backups.md)
+
+### [Local LLM](docs/local-llm/)
+
+- [Overview](docs/local-llm/overview.md)
+- [Ollama](docs/local-llm/ollama.md)
+- [LiteLLM](docs/local-llm/litellm.md)
+- [Open WebUI](docs/local-llm/open-webui.md)
